@@ -14,7 +14,7 @@ Learned/Used React frontend (10 points)
 Learned/Used Express backend (10 points)
 Learned/Used MongoDB (10 points)
 
-# Functionality (50 points)
+## Functionality (50 points)
 
 User can register, log in, log out (10 points)
 
