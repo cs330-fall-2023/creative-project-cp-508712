@@ -22,9 +22,8 @@ Upload photos of products/create new product posts that other users can see usin
 Each product posting shows product name, picture, when/where it was first/last seen (5 points)<br>
 Leave comments/star reviews on products (10 points)<br>
 Users can search for products and add them to a personal shopping list (10 points)<br>
-User management (15 points)<br>
-  - register, log in, log out (10 points)
-  - best practices - passwords salted/hashed, session cookies are HTTP only (5 points)<br>
+User management - register, log in, log out (10 points)<br>
+User management - passwords salted/hashed, session cookies are HTTP only (5 points)
 
 ## Best Practices (5 points)
 
