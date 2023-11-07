@@ -12,27 +12,27 @@ Trader Joe's product tracker - Trader Joe's (an American grocery store chain) is
 
 ## Languages/Frameworks (30 points)
 
-Learned/Used React frontend (10 points)
-Learned/Used Express backend (10 points)
-Learned/Used MongoDB (10 points)
+Learned/Used React frontend (10 points)<br>
+Learned/Used Express backend (10 points)<br>
+Learned/Used MongoDB (10 points)<br>
 
 ## Functionality (55 points)
 
-User management (15 points)
+User management (15 points)<br>
   - register, log in, log out (10 points)
   - best practices - passwords salted/hashed, session cookies are HTTP only (5 points)
-Upload photos of products/create new product posts that other users can see using aws s3 buckets (15 points)
-Each product posting shows product name, picture, when/where it was first/last seen (5 points)
-Leave comments/star reviews on products (10 points)
-Users can search for products and add them to a personal shopping list (10 points)
+Upload photos of products/create new product posts that other users can see using aws s3 buckets (15 points)<br>
+Each product posting shows product name, picture, when/where it was first/last seen (5 points)<br>
+Leave comments/star reviews on products (10 points)<br>
+Users can search for products and add them to a personal shopping list (10 points)<br>
 
 
 ## Best Practices (5 points)
 
-Code is readable and well formatted (3 points)
-All pages pass the HTML validator (2 points)
+Code is readable and well formatted (3 points)<br>
+All pages pass the HTML validator (2 points)<br>
 
 ## Styling (5 points)
 
-Learn/implement SCSS/SASS (5 points)
+Learn/implement SCSS/SASS (5 points)<br>
 
