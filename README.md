@@ -18,14 +18,13 @@ Learned/Used MongoDB (10 points)<br>
 
 ## Functionality (55 points)
 
-User management (15 points)<br>
-  - register, log in, log out (10 points)
-  - best practices - passwords salted/hashed, session cookies are HTTP only (5 points)<br>
 Upload photos of products/create new product posts that other users can see using aws s3 buckets (15 points)<br>
 Each product posting shows product name, picture, when/where it was first/last seen (5 points)<br>
 Leave comments/star reviews on products (10 points)<br>
 Users can search for products and add them to a personal shopping list (10 points)<br>
-
+User management (15 points)<br>
+  - register, log in, log out (10 points)
+  - best practices - passwords salted/hashed, session cookies are HTTP only (5 points)<br>
 
 ## Best Practices (5 points)
 
