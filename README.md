@@ -4,6 +4,10 @@ Name: Grace Lee
 Student ID: 508712
 Github username: eun1229
 
+Used this tutorial as a foundation:
+https://www.youtube.com/watch?v=xKs2IZZya7c
+(https://github.com/dejwid/mern-blog) <- the corresponding github repo
+
 # Rubric
 
 Trader Joe's product tracker - Trader Joe's (an American grocery store chain) is always coming out with new products and discontinuing existing products without announcing their actions to the general public. This site crowdsources information about new releases and discontinuations by allowing users to upload new product information or add to an already existing post about the product. Users will mark when/where they first/last saw the item so other users are aware if a product has not been seen for a while and is likely discontinued. Users can leave a review on product postings, add pictures, and add products to a shopping list.
