@@ -1,11 +1,13 @@
-import {useEffect, useState} from "react";
+import { useEffect, useState, useContext } from "react";
 import {useParams, Link} from "react-router-dom";
 import {formatISO9075} from "date-fns";
 import SingleReview from "../singlereview";
+import {UserContext} from "../UserContext";
 
 export default function ProductPage() {
   const [postInfo, setPostInfo] = useState(null);
   const [reviews, setReviews] = useState([]);
+  const {setUserInfo, userInfo} = useContext(UserContext);
   const {id} = useParams();
   useEffect(() => {
     fetch(`http://localhost:4000/post/${id}`)
@@ -14,6 +16,16 @@ export default function ProductPage() {
         setPostInfo(postInfo);
       });
     })
+  }, []);
+
+  useEffect(() => {
+    fetch('http://localhost:4000/profile', {
+      credentials: 'include',
+    }).then(response => {
+      response.json().then(userInfo => {
+        setUserInfo(userInfo);
+      });
+    });
   }, []);
 
   let firstseen = <></>
@@ -30,7 +42,6 @@ export default function ProductPage() {
     return <></>;
   }
 
-
   console.log(reviews.length);
   console.log(reviews[reviews.length]);
   if (reviews.length >= 1) {
@@ -39,7 +50,11 @@ export default function ProductPage() {
     <time><span className = "lastseen">first seen: </span>{formatISO9075(new Date(reviews[reviews.length-1].createdAt))} <span className = "lastseen">at </span> {reviews[reviews.length-1].city}, {reviews[reviews.length-1].productstate }</time>
     </>
   }
-  const linktoreview = '/addreview/' + id;
+  let linktoreview = '/';
+
+  if (userInfo) {
+    linktoreview = '/addreview/' + id;
+  }
 
   return <>
     <div className = "productpage">

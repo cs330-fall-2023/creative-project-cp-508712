@@ -1,4 +1,5 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+#mongoose.connect(mongodb+srv://eun1229:BooBunny2404@cluster0.2hxzd3d.mongodb.net/?retryWrites=true&w=majority)
 
 # dependencies
 /node_modules
